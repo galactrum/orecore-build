@@ -1,22 +1,16 @@
-# bitcore-build-dash
+# galactrum-build
 
 A helper to add tasks to gulp.
 
 ## Getting started
 
-Install with:
-
-```sh
-npm install bitcore-build-dash
-```
-
-and use and require in your gulp file: 
+Use and require in your gulp file: 
 
 ```javascript
 var gulp = require('gulp');
-var bitcoreTasks = require('bitcore-build-dash');
+var galactrumTasks = require('galactrum-build');
 
-bitcoreTasks('submodule');
+galactrumTasks('submodule');
 gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
 ```
 
@@ -25,13 +19,13 @@ gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
 * There's no default task to allow for each submodule to set up their own configuration
 * If the module is node-only, avoid adding the browser tasks with:
 ```javascript
-var bitcoreTasks = require('bitcore-build-dash');
-bitcoreTasks('submodule', {skipBrowsers: true});
+var galactrumTasks = require('galactrum-build');
+galactrumTasks('submodule', {skipBrowsers: true});
 ```
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/bitpay/bitcore) on the main bitcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/galactrum/galactrum/blob/master/CONTRIBUTING.md) on the main bitcore repo for information about how to contribute.
 
 ## License
 

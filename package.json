@@ -1,24 +1,23 @@
 {
-  "name": "dashcore-build",
+  "name": "galactrum-build",
   "version": "1.0.0",
-  "description": "A helper for common tasks to build dashcore modules",
+  "description": "A helper for common tasks to build galactrum modules",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dashpay/dashcore-build"
+    "url": "git://github.com/GAB5TER/galactrum-build"
   },
   "keywords": [
-    "dash",
-    "dashcore"
+    "galactrum"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dashpay/dashcore-build/issues"
+    "url": "https://github.com/GAB5TER/galactrum-build/issues"
   },
-  "homepage": "https://github.com/dashpay/dashcore-build",
+  "homepage": "https://github.com/GAB5TER/galactrum-build",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
