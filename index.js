@@ -129,9 +129,9 @@ function startGulp(name, opts) {
     var browserifyCommand;
 
     if (name !== 'lib') {
-      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external galactrum-lib -o ' + fullname + '.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external orecore-lib -o ' + fullname + '.js';
     } else {
-      browserifyCommand = browserifyPath + ' --require ./index.js:galactrum-lib -o galactrum-lib.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:orecore-lib -o orecore-lib.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
