@@ -1,5 +1,5 @@
 {
-  "name": "galactrum-build",
+  "name": "orecore-build",
   "version": "1.0.0",
   "description": "A helper for common tasks to build Orecore modules",
   "main": "index.js",
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/GAB5TER/galactrum-build"
+    "url": "git://github.com/GAB5TER/orecore-build"
   },
   "keywords": [
     "galactrum"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GAB5TER/galactrum-build/issues"
+    "url": "https://github.com/GAB5TER/orecore-build/issues"
   },
-  "homepage": "https://github.com/GAB5TER/galactrum-build",
+  "homepage": "https://github.com/GAB5TER/orecore-build",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
